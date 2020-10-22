@@ -1,0 +1,17 @@
+{
+  "name": "netapi",
+  "version": "0.0.1",
+  "description": "A library that wraps the fetch API. It provides .Net core MVC specific helpers for rendering partial views async, posting and getting data.",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HarryPi",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ]
+}
